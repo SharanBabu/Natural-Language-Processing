@@ -1,0 +1,13 @@
+#state symbols
+Hot Cold
+#symbols for each observation
+1 2 3 
+#b matrix - #num_states * #num_obs
+0.2 0.4 0.4
+0.5 0.4 0.1
+#transition matrix - including start and end i.e, #num_states + 2 * #num_states + 2
+0 0.8 0.2 0
+0 0.7 0.3 0
+0 0.4 0.6 0
+0 0 0 0
+
